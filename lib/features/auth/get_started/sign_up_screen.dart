@@ -3,9 +3,9 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:pomo/common/theme.dart';
 import 'package:pomo/common/widgets/divider_with_text/divider_with_text.dart';
 import 'package:pomo/common/widgets/input/input.dart';
-import 'package:pomo/features/auth/get_started/presentation/login_screen.dart';
 
-import '../../../../common/widgets/button/button.dart';
+import '../../../common/widgets/button/button.dart';
+import 'login_screen.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});

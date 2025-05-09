@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 import 'package:pomo/common/theme.dart';
+import 'package:pomo/features/auth/get_started/change_password_screen.dart';
 
 class PinValidationScreen extends StatefulWidget {
   const PinValidationScreen({super.key});
@@ -93,6 +94,9 @@ class _PinValidationScreenState extends State<PinValidationScreen> {
                 child: Pinput(
                   focusNode: focusNode,
                   defaultPinTheme: defaultPinTheme,
+                  onCompleted: (String value) {
+                    context.push(const ChangePasswordScreen());
+                  },
                   followingPinTheme: defaultPinTheme.copyWith(
                     decoration: defaultPinTheme.decoration!.copyWith(
                       color: ThemeApp.gray100,
