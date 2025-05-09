@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pomo/features/auth/get_started/get_started_screen.dart';
+import 'package:pomo/features/auth/get_started_screen.dart';
 
 import 'common/theme.dart';
 

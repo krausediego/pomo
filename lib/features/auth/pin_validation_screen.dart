@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:pinput/pinput.dart';
 import 'package:pomo/common/theme.dart';
-import 'package:pomo/features/auth/get_started/change_password_screen.dart';
+import 'package:pomo/features/auth/change_password_screen.dart';
 
 class PinValidationScreen extends StatefulWidget {
   const PinValidationScreen({super.key});

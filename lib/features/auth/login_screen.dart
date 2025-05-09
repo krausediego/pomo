@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:pomo/common/theme.dart';
+import 'package:pomo/common/widgets/button/button.dart';
 import 'package:pomo/common/widgets/divider_with_text/divider_with_text.dart';
 import 'package:pomo/common/widgets/input/input.dart';
-import 'package:pomo/features/auth/get_started/forgot_password_screen.dart';
 
-import '../../../../common/widgets/button/button.dart';
+import 'forgot_password_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:pomo/common/theme.dart';
 import 'package:pomo/common/widgets/button/button.dart';
-import 'package:pomo/features/auth/get_started/sign_up_screen.dart';
+import 'package:pomo/features/auth/sign_up_screen.dart';
 
 import 'login_screen.dart';
 
